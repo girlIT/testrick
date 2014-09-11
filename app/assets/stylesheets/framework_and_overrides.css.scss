@@ -135,8 +135,8 @@ $navbar-border-radius: 0px;
 
 // Navbar: Default navbar
 // -> Basics
-$navbar-default-color: #777777; 
-$navbar-default-bg: #f8f8f8; 
+$navbar-default-color: #BB2277; 
+$navbar-default-bg: #BB2277; 
 $navbar-default-border: darken($navbar-default-bg, 7%); 
 // -> Links
 $navbar-default-link-color: #777777; 
@@ -157,7 +157,7 @@ $navbar-default-toggle-border-color: #dddddd;
 
 // Navbar: Inverted navbar
 // -> Basics
-$navbar-inverse-color: #eeeeee; 
+$navbar-inverse-color: #BB2277; 
 $navbar-inverse-bg: #222222; 
 $navbar-inverse-border: darken($navbar-inverse-bg, 7%); 
 // -> Links
@@ -234,7 +234,7 @@ $input-group-addon-border-color: $input-border; // Border color for textual inpu
 
 // Dropdowns
 // -> Dropdown menu
-$dropdown-bg: #ffffff; // Dropdown menu background color
+$dropdown-bg: #BB2277;  // Dropdown menu background color
 $dropdown-border: #373737; // Dropdown menu border color
 $dropdown-fallback-border: #cccccc; // Dropdown menu border color for IE8
 $dropdown-caret-color: #dddddd; // Indicator arrow for showing an element has a dropdown 
@@ -250,7 +250,7 @@ $dropdown-link-disabled-color: #dddddd; // Disabled dropdown menu entry backgrou
 
 // Panels and wells
 // -> Common panel styles
-$panel-bg: #ffffff; 
+$panel-bg: #BB2277; 
 $panel-inner-border: #dddddd; // Border color for elements within panels 
 $panel-border-radius: $border-radius-base; 
 $panel-footer-bg: #f5f5f5; 
@@ -258,7 +258,7 @@ $panel-footer-bg: #f5f5f5;
 // --> Default
 $panel-default-text: #373737; 
 $panel-default-border: #dddddd; 
-$panel-default-heading-bg: #f5f5f5; 
+$panel-default-heading-bg: #BB2277; 
 // --> Primary
 $panel-primary-text: #ffffff; 
 $panel-primary-border: $brand-primary; 
@@ -409,7 +409,7 @@ img{
 //***********************************************************
 // FOOTER
 #footer{
-  background-color: $navbar-inverse-bg;
+  background-color: #BB2277; 
   color: $navbar-inverse-color;
   height: 100px;
   margin-top: -100px;  
